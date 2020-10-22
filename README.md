@@ -22,4 +22,4 @@ You can customise the greeting by specifying the `name` parameter. For example, 
 }
 ```
 
-Notice how `id` is incremented each time you make request.
+Notice how `id` is incremented each time you make a request.
