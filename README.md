@@ -5,7 +5,7 @@ article [Building a RESTful Web Service](https://spring.io/guides/gs/rest-servic
 a go if you're at all interested in learning Spring Boot - it only takes 15 mins.
 
 ## API
-Make a request to `/greeting` and you will get back a simple JSON object:
+Make a GET request to `/greeting` and you will get back a simple JSON object:
 ```json
 {
   "id": 1,
@@ -13,7 +13,7 @@ Make a request to `/greeting` and you will get back a simple JSON object:
 }
 ```
 
-You can customise the greeting by specifying the `name` parameter. For example, if you make a request to
+You can customise the greeting by specifying the `name` parameter. For example, if you make a GET request to
 `/greeting?name=Daniel`, you will get back something like the following:
 ```json
 {
